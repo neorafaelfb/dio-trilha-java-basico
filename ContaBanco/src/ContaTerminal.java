@@ -13,8 +13,9 @@ public class ContaTerminal {
         Agencia = scanner.next();
         System.out.println("Por favor, digite o número da sua Conta");
         Numero = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("Por favor, digite o seu Nome");
-        NomeCliente = scanner.next();
+        NomeCliente = scanner.nextLine();
         System.out.println("Por favor, digite o Saldo da sua Conta");
         Saldo = scanner.nextDouble();
 
